@@ -1,0 +1,2 @@
+set(locobot_simulation_MESSAGE_FILES "/home/user/catkin_ws/src/locobot_simulation/msg/Model.msg;/home/user/catkin_ws/src/locobot_simulation/msg/LogicalImage.msg;/home/user/catkin_ws/src/locobot_simulation/msg/DetectedObject.msg;/home/user/catkin_ws/src/locobot_simulation/msg/DetectedObjects.msg;/home/user/catkin_ws/src/locobot_simulation/msg/BoundingBox.msg;/home/user/catkin_ws/src/locobot_simulation/msg/BoundingBoxes.msg")
+set(locobot_simulation_SERVICE_FILES "")

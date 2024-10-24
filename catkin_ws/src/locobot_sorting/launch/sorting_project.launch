@@ -1,0 +1,12 @@
+<!-- sorting_project.launch -->
+<launch>
+    <!-- Launch object detection -->
+    <node name="camera_detection" pkg="robot_sorting_project" type="camera_object_detection.py" output="screen" />
+
+
+    <!-- Launch object grasping -->
+    <!-- <node name="object_grasping" pkg="robot_sorting_project" type="grasp_objects.py" output="screen" /> -->
+
+    <!-- Launch non-graspable object handling -->
+    <!-- <node name="object_push" pkg="robot_sorting_project" type="push_objects.py" output="screen" /> -->
+</launch>

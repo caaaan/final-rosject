@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>locobot_sorting</name>
+  <version>0.0.1</version>
+  <description>The locobot_sorting package for object sorting using Locobot</description>
+
+  <maintainer email="user@todo.todo">Your Name</maintainer>
+  <license>BSD</license>
+
+  <!-- Dependencies -->
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <!-- Build dependencies -->
+  <build_depend>geometry_msgs</build_depend>
+  <build_depend>moveit_commander</build_depend>
+  <build_depend>rospy</build_depend>
+  <build_depend>std_msgs</build_depend>
+  <build_depend>message_generation</build_depend>  <!-- For generating messages -->
+  <build_depend>message_runtime</build_depend>     <!-- For using generated messages -->
+  <build_depend>tf2_ros</build_depend>
+  <build_depend>tf2_geometry_msgs</build_depend>
+
+  <!-- Export dependencies -->
+  <build_export_depend>geometry_msgs</build_export_depend>
+  <build_export_depend>moveit_commander</build_export_depend>
+  <build_export_depend>rospy</build_export_depend>
+  <build_export_depend>std_msgs</build_export_depend>
+  <build_export_depend>message_runtime</build_export_depend>  <!-- For using generated messages -->
+  <build_export_depend>tf2_ros</build_export_depend>
+  <build_export_depend>tf2_geometry_msgs</build_export_depend>
+
+  <!-- Execution dependencies -->
+  <exec_depend>geometry_msgs</exec_depend>
+  <exec_depend>moveit_commander</exec_depend>
+  <exec_depend>rospy</exec_depend>
+  <exec_depend>std_msgs</exec_depend>
+  <exec_depend>message_runtime</exec_depend>  <!-- For using generated messages -->
+  <exec_depend>tf2_ros</exec_depend>
+  <exec_depend>tf2_geometry_msgs</exec_depend>
+
+  <!-- If using custom messages from locobot_simulation -->
+  <depend>locobot_simulation</depend>
+
+  <export></export>
+</package>

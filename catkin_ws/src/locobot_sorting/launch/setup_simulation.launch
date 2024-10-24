@@ -1,0 +1,10 @@
+<launch>
+  <!-- Include the existing xslocobot_moveit.launch file -->
+  <include file="$(find locobot_moveit)/launch/xslocobot_moveit.launch"/>
+
+  <!-- Ensure clock is being published -->
+  <param name="/use_sim_time" value="true" />
+
+  <!-- Unpause Gazebo physics -->
+  <node name="unpause_physics" pkg="rosservice" type="rosservice" args="call --wait /gazebo/unpause_physics" />
+</launch>

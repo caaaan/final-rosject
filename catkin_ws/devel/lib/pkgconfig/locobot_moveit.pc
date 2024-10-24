@@ -1,0 +1,8 @@
+prefix=/home/user/catkin_ws/devel
+
+Name: locobot_moveit
+Description: Description of locobot_moveit
+Version: 0.3.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
